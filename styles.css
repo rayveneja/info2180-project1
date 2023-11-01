@@ -5,7 +5,35 @@ body {
 }
 
 .container {
-    margin: 0 auto;
-    max-width: 960px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-gap: 40px;
+    margin: 40px;
     width: 100%;
+}
+
+.overview-hero{
+    grid-column: 1/4;
+    grid-row:1;
+}
+
+.learn-about{
+    grid-column: 1/4;
+    grid-row: 2;
+}
+
+.testing{
+    grid-column: 1/4;
+    grid-row: 3;
+}
+
+.stories{
+    grid-column: 1/4;
+    grid-row: 4;
+}
+
+.newsletter{
+    grid-column: 1/4;
+    grid-row: 5;
 }
