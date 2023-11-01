@@ -1,39 +1,67 @@
 /* Add your CSS to this file */
 body {
-    margin: 0;
+    margin: 10px;
     font-size: 16px;
+    padding: 10px;
 }
 
 .container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto auto auto;
-    grid-gap: 40px;
-    margin: 40px;
+    margin: 0 auto;
+    max-width: 960px;
     width: 100%;
+    align-items: right;
 }
 
-.overview-hero{
-    grid-column: 1/4;
-    grid-row:1;
+header .container{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
 }
 
-.learn-about{
-    grid-column: 1/4;
-    grid-row: 2;
+ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-.testing{
-    grid-column: 1/4;
-    grid-row: 3;
+ul li{
+    padding:10px;
 }
 
-.stories{
-    grid-column: 1/4;
-    grid-row: 4;
-}
-
-.newsletter{
-    grid-column: 1/4;
+header h1{
+    font-size: 18px;
     grid-row: 5;
+    grid-column: 1;
+    display: flex;
+    flex-direction: column;
+    float: left;
+}
+header h2{
+    align-items: left  ;
+}
+
+.overview-hero-image{
+    float: left; 
+    padding-right: 60px;
+}
+.overview-hero-image img{
+    height:300px;
+    width:300px;
+}
+
+.overview-hero {
+    display:flex;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.card img{
+    width: 300px;
+    height: 300px;
 }
