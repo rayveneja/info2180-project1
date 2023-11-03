@@ -1,9 +1,14 @@
 /* Add your CSS to this file */
+
+*{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif; 
+    font-size: 18px;
+}
+
 body {
     margin: 10px;
     font-size: 16px;
     padding: 10px;
- 
 }
 
 .container {
@@ -18,6 +23,8 @@ header .container{
     align-items: center;
     display: flex;
     justify-content: space-between;
+    background-color: white;
+    font-size: 18px;
 }
 
 ul{
@@ -30,6 +37,15 @@ ul{
 
 ul li{
     padding:10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #6b7280;
+}
+
+nav a:hover{
+    color: #5A67D8;
 }
 
 header h1{
