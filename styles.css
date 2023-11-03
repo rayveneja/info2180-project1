@@ -3,6 +3,7 @@ body {
     margin: 10px;
     font-size: 16px;
     padding: 10px;
+ 
 }
 
 .container {
@@ -10,6 +11,7 @@ body {
     max-width: 960px;
     width: 100%;
     align-items: right;
+  
 }
 
 header .container{
@@ -65,3 +67,40 @@ header h2{
     width: 300px;
     height: 300px;
 }
+
+.testing{
+text-align: left;
+}
+
+.cta{
+    width: 200px;
+    text-align: right;
+}
+
+
+.stories img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    float: left;
+    margin-right: 20px; 
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+.article-body {
+    float: none; 
+}
+
+.stories article::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.stories{
+    margin-top: 50px;
+}
+
+
