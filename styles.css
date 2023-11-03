@@ -75,7 +75,11 @@ header h1{
     padding: 20px 0;
     display:flex;
     background-color: #E2E8F0;
+}
 
+.overview-hero-text{
+    padding: 50px 50px;
+    justify-content: center;
 }
 
 .cards{
@@ -199,7 +203,7 @@ form{
 }
 
 .form-group{
-    margin: 5px;
+    margin: 10px;
 }
 
 .newsletter .btn{
@@ -209,12 +213,14 @@ form{
     text-decoration: none;
     color: white;
     border-radius: 5px;
+    border: 0px;
 }
 
 input{
     border-radius: 5px;
     width: 300px;
     padding: 15px;
+    border: 0px;
 }
 
 footer {
