@@ -56,7 +56,7 @@ header h1{
     flex-direction: column;
     float: left;
 }
-h2{
+.overview-hero h2{
     align-items: left;
     font-size: 24px;
     color: #48BB78;
@@ -89,15 +89,61 @@ h2{
     height: 300px;
 }
 
-.testing{
-text-align: left;
+.card{
+    border: 1px solid;
+    border-color: #E2E8F0;
+    border-radius: 5px;
+    box-shadow: 4px 4px #E2E8F0;
 }
+
+.card-body{
+    padding: 15px;
+    margin: 0;
+    padding-bottom: 0;
+}
+
+.learn-about{
+    padding: 50px;
+}
+
+.learn-about h3{
+    color: #48BB78;
+    font-size: 21px;
+}
+
+.testing{
+    text-align: left;
+    background-color: #4A5568;
+    padding: 50px;
+    color: white;
+}
+
+
+.testing .container{
+    display: flex;
+}
+
 
 .cta{
-    width: 200px;
-    text-align: right;
+    width: 100%;
+    justify-content: center;
+    float: right;
+    padding: 50px;
+    margin-left: 50px;
 }
 
+
+.cta .btn{
+    width:7500px;
+    background-color: #48BB78;
+    padding: 20px 50px 20px 50px;
+    justify-content: center;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+ 
 
 .stories img {
     width: 200px;
